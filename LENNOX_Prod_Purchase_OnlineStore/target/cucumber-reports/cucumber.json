@@ -1,0 +1,154 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-26T07:21:12.867Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7574141100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.StepDefinitions.LennoxStepDefs.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Web Application - Buying Compressor product 10T46 from lennox online Website",
+        "description": "",
+        "id": "buying-product-10t46-from-lennox-site;web-application---buying-compressor-product-10t46-from-lennox-online-website;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1110223900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.StepDefinitions.LennoxStepDefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 49174538700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want navigate to product URL \"https://www.liidaveqa.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.liidaveqa.com/\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.example.StepDefinitions.LennoxStepDefs.i_want_navigate_to_product_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23251025400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Enter login credentials \"lenproautomation8@lenqat.com\" and \"Community17\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lenproautomation8@lenqat.com\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Community17\"",
+                  "offset": 61
+                }
+              ],
+              "location": "com.example.StepDefinitions.LennoxStepDefs.i_enter_login_credentials_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3603670400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Click Menu button in top left side",
+            "match": {
+              "location": "com.example.StepDefinitions.LennoxStepDefs.i_click_menu_button_in_top_left_side()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21054536200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Click Parts and Supplies and click Compressors option",
+            "match": {
+              "location": "com.example.StepDefinitions.LennoxStepDefs.i_click_parts_and_supplies_and_click_compressors_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6341001300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Verify compressor landing page and Click compressors option",
+            "match": {
+              "location": "com.example.StepDefinitions.LennoxStepDefs.i_verify_compressor_landing_page_and_click_compressors_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61297117200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Verify and Select 10T46 product from list",
+            "match": {
+              "location": "com.example.StepDefinitions.LennoxStepDefs.i_verify_and_select_10t46_product_from_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 729058500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify product details and compare it with the details from the previous page",
+            "match": {
+              "location": "com.example.StepDefinitions.LennoxStepDefs.i_verify_product_details_and_compare_it_with_the_details_from_the_previous_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BuyProduct"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Buying product 10T46 from Lennox site",
+    "description": "",
+    "id": "buying-product-10t46-from-lennox-site",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Lennox.feature",
+    "tags": []
+  }
+]
